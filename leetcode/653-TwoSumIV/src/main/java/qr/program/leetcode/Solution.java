@@ -3,6 +3,9 @@ package qr.program.leetcode;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * @see <a href="https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/"> 两数之和IV </a>
+ */
 public class Solution {
 
     Set<Integer> set = new HashSet<>();
