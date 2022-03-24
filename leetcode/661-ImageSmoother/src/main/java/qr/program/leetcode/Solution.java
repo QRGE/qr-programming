@@ -22,8 +22,8 @@ public class Solution {
      */
     public int[][] imageSmoother(int[][] img) {
         // 获取长宽
-        int imageLong = img[0].length;
-        int imageWidth = img.length;
+        int imageWidth = img[0].length;
+        int imageLong = img.length;
         for (int i = 0; i < img.length; i++) {
             for (int j = 0; j < img[i].length; j++) {
                 // e
@@ -41,12 +41,12 @@ public class Solution {
                 }
                 // a
                 if (i - 1 >= 0 && j - 1 >= 0) {
-                    sum += img[i-1][j+1];
+                    sum += img[i-1][j-1];
                     count++;
                 }
                 // d
                 if (j - 1 >= 0) {
-                    sum += img[i-1][j-1];
+                    sum += img[i][j-1];
                     count++;
                 }
                 // f
@@ -61,17 +61,38 @@ public class Solution {
                 }
                 // g
                 if (i + 1 < imageWidth && j - 1 >= 0 ) {
-                    sum += img[i-1][j-1];
+                    sum += img[i+1][j-1];
                     count++;
                 }
                 // c
                 if (i - 1 >= 0 && j + 1 < imageLong) {
-                    sum += img[i][j+1];
+                    sum += img[i-1][j+1];
                     count++;
                 }
                 img[i][j] = sum / count;
             }
         }
         return img;
+    }
+
+    public int[][] imageSmoother2(int[][] img) {
+        int imgLong = img.length, imgWidth = img[0].length;
+        int[][] ret = new int[imgLong][imgWidth];
+        for (int i = 0; i < imgLong; i++) {
+            for (int j = 0; j < imgWidth; j++) {
+                int num = 0, sum = 0;
+                // 通过遍历获取平均灰度
+                for (int x = i - 1; x <= i + 1; x++) {
+                    for (int y = j - 1; y <= j + 1; y++) {
+                        if (x >= 0 && x < imgLong && y >= 0 && y < imgWidth) {
+                            num++;
+                            sum += img[x][y];
+                        }
+                    }
+                }
+                ret[i][j] = sum / num;
+            }
+        }
+        return ret;
     }
 }
