@@ -23,6 +23,7 @@
         <module>24-SwapNodesInPairs</module>
         <module>0-basic</module>
         <module>141-LinkedListCycle</module>
+        <module>175-CombineTwoTables</module>
     </modules>
 
     <properties>
