@@ -5,7 +5,7 @@ package qr.program.leetcode.basic;
  * @date 2022/3/30 21:06
  */
 public class ListNode {
-    int val;
+    public int val;
     public ListNode next;
     ListNode() {}
     ListNode(int val) { this.val = val; }

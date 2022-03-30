@@ -9,6 +9,7 @@ import qr.program.leetcode.basic.ListNode;
 public class Solution {
 
     public ListNode swapPairs(ListNode head) {
+        ListNode pre = null;
         return null;
     }
 }
