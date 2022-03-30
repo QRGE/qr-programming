@@ -3,24 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>qr-programming</artifactId>
+        <artifactId>leetcode</artifactId>
         <groupId>qr.program</groupId>
         <version>Amiya</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>leetcode</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>1-TwoSum</module>
-        <module>653-TwoSumIV</module>
-        <module>170-TwoSumIII</module>
-        <module>167-TwoSumII</module>
-        <module>661-ImageSmoother</module>
-        <module>1099-TwoSumLessThenK</module>
-        <module>66-plusOne</module>
-        <module>206-ReverseLinkedList</module>
-    </modules>
+    <groupId>qr.program.leetcode</groupId>
+    <artifactId>206-ReverseLinkedList</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
