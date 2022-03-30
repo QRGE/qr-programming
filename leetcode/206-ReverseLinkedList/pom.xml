@@ -11,6 +11,14 @@
 
     <groupId>qr.program.leetcode</groupId>
     <artifactId>206-ReverseLinkedList</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>qr.program.leetcode</groupId>
+            <artifactId>0-basic</artifactId>
+            <version>Amiya</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
