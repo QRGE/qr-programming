@@ -28,6 +28,7 @@
         <module>20-ValidParentheses</module>
         <module>232-ImplementQueueUsingStacks</module>
         <module>225-ImplementStackUsingQueue</module>
+        <module>703-KthLargest</module>
     </modules>
 
     <properties>
