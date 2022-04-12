@@ -27,6 +27,7 @@
         <module>142-LinkedListCycleII</module>
         <module>20-ValidParentheses</module>
         <module>232-ImplementQueueUsingStacks</module>
+        <module>225-ImplementStackUsingQueue</module>
     </modules>
 
     <properties>
