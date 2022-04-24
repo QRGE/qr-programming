@@ -30,6 +30,7 @@
         <module>225-ImplementStackUsingQueue</module>
         <module>703-KthLargest</module>
         <module>704-BinarySearch</module>
+        <module>35-SearchInsertPosition</module>
     </modules>
 
     <properties>
