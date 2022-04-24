@@ -29,6 +29,7 @@
         <module>232-ImplementQueueUsingStacks</module>
         <module>225-ImplementStackUsingQueue</module>
         <module>703-KthLargest</module>
+        <module>704-BinarySearch</module>
     </modules>
 
     <properties>
