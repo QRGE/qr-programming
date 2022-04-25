@@ -33,6 +33,7 @@
         <module>35-SearchInsertPosition</module>
         <module>69-SqrtX</module>
         <module>367-ValidPerfectSquare</module>
+        <module>441-ArrangingCoins</module>
     </modules>
 
     <properties>
