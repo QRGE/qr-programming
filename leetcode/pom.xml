@@ -32,6 +32,7 @@
         <module>704-BinarySearch</module>
         <module>35-SearchInsertPosition</module>
         <module>69-SqrtX</module>
+        <module>367-ValidPerfectSquare</module>
     </modules>
 
     <properties>
