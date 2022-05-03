@@ -35,6 +35,7 @@
         <module>367-ValidPerfectSquare</module>
         <module>441-ArrangingCoins</module>
         <module>34-SearchRange</module>
+        <module>1051-HeightChecker</module>
     </modules>
 
     <properties>
