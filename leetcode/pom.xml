@@ -36,6 +36,7 @@
         <module>441-ArrangingCoins</module>
         <module>34-SearchRange</module>
         <module>1051-HeightChecker</module>
+        <module>1133-LargestUniqueNumber</module>
     </modules>
 
     <properties>
