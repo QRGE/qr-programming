@@ -39,6 +39,7 @@
         <module>1133-LargestUniqueNumber</module>
         <module>179-LargestNumber</module>
         <module>Offer45-MinNumber</module>
+        <module>283-moveZero</module>
     </modules>
 
     <properties>
