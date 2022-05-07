@@ -41,6 +41,7 @@
         <module>Offer45-MinNumber</module>
         <module>283-moveZero</module>
         <module>215-KthLargestNum</module>
+        <module>912-SortArray</module>
     </modules>
 
     <properties>
