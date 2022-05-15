@@ -42,6 +42,7 @@
         <module>283-moveZero</module>
         <module>215-KthLargestNum</module>
         <module>912-SortArray</module>
+        <module>147-sortLinkedList</module>
     </modules>
 
     <properties>
