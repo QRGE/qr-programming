@@ -43,6 +43,7 @@
         <module>215-KthLargestNum</module>
         <module>912-SortArray</module>
         <module>147-sortLinkedList</module>
+        <module>724-FindPivotIndex</module>
     </modules>
 
     <properties>
