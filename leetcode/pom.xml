@@ -44,6 +44,8 @@
         <module>912-SortArray</module>
         <module>147-sortLinkedList</module>
         <module>724-FindPivotIndex</module>
+        <module>56-MergeIntervals</module>
+        <module>374-GuessNumber</module>
     </modules>
 
     <properties>

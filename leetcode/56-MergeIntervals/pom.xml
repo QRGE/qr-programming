@@ -2,28 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>leetcode</artifactId>
+        <groupId>qr.program</groupId>
+        <version>Amiya</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>qr.program</groupId>
-    <artifactId>qr-programming</artifactId>
-    <packaging>pom</packaging>
-    <version>Amiya</version>
-    <modules>
-        <module>leetcode</module>
-        <module>Java</module>
-    </modules>
+    <groupId>qr.program.leetcode</groupId>
+    <artifactId>56-MergeIntervals</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.1</version>
-        </dependency>
-    </dependencies>
 
 </project>
