@@ -11,22 +11,22 @@ public class Child extends Base{
     public int a;
 
     static {
-        System.out.println("Child.StaticCodeArea, s: " + s);
+        System.out.println("ChildError.StaticCodeArea, s: " + s);
         s = 10;
     }
 
     {
-        System.out.println("Child.InstanceCodeArea, a: " + a);
+        System.out.println("ChildError.InstanceCodeArea, a: " + a);
         a = 20;
     }
 
     public Child() {
-        System.out.println("Child.Construct, a: " + a);
+        System.out.println("ChildError.Construct, a: " + a);
         a = 20;
     }
 
     protected void step() {
-        System.out.println("Child s: " + s + ", a: " + a);
+        System.out.println("ChildError s: " + s + ", a: " + a);
     }
 
 }

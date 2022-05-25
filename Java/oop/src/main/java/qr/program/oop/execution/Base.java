@@ -13,17 +13,17 @@ public class Base {
     public int a;
 
     static {
-        System.out.println("Base.StaticCodeArea, s: " + s);
+        System.out.println("BaseError.StaticCodeArea, s: " + s);
         s = 1;
     }
 
     {
-        System.out.println("Base.InstanceCodeArea, a: " + a);
+        System.out.println("BaseError.InstanceCodeArea, a: " + a);
         a = 2;
     }
 
     public Base() {
-        System.out.println("Base.Construct, a: " + a);
+        System.out.println("BaseError.Construct, a: " + a);
         a = 2;
     }
 
