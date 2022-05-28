@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>qr-programming</artifactId>
+        <artifactId>Java</artifactId>
         <groupId>qr.program</groupId>
         <version>Amiya</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Java</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>oop</module>
-        <module>method</module>
-    </modules>
+    <artifactId>method</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
