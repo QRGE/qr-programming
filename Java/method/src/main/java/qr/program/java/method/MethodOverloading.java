@@ -13,7 +13,7 @@ public class MethodOverloading {
     public static void main(String[] args) {
         // 方法调用传递值时基础类型可以进行隐式类型转换
         System.out.println(getDoubleSum(1, 2));
-        // getSum(1, 2) 会出现方法调用歧义导致编译错误
+        // getSum(1, 2) 会出现方法调用歧义(可以匹配到多个方法时)导致编译错误
         System.out.println(getSum(1, 2.0));
         work1(new Grand(), new Medic());
         // 可以传递方法参数的子类
