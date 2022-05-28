@@ -46,6 +46,7 @@
         <module>724-FindPivotIndex</module>
         <module>56-MergeIntervals</module>
         <module>374-GuessNumber</module>
+        <module>33-searchInRotatedSortedArray</module>
     </modules>
 
     <properties>
